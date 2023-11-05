@@ -1,0 +1,77 @@
+body h1 p {
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+body {
+    background-color: darkcyan;
+}
+.headder {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px 0;
+    transition: all 0.3s ease;
+}
+.header-title {
+    font-size: 3rem;
+    transition: all 0.3s ease;
+}
+.header-description {
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+.featured-products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    transition: all 0.3s ease;
+}
+.product {
+    text-align: center;
+    max-width: 300px;
+    background-color: lightcyan;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    transform: scale(1);
+    transition: transform 0.3 ease;
+}
+.product:hover {
+    transform: scale(1.5);
+}
+.product-image {
+    max-width: 100%;
+    transition: all 0.3s ease;
+}
+.produc-title {
+    font-size: 1rem;
+    margin: 10px;
+    color: lightslategray;
+    transition: all 0.3s ease;
+}
+.cta {
+    background-color: rgb(169, 197, 248);
+    text-align: center;
+    padding: 20px 0;
+    transition: all 0.3s ease;
+}
+.cta-title {
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+    background-color: cyan;
+    transform: scale(1.3);
+}
